@@ -1,0 +1,29 @@
+{
+  "name": "snow-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "svelte": "^3.46.4",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.10.4",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "null": "^2.0.0",
+    "postcss-cli": "^9.1.0",
+    "postcss": "^8.4.7",
+    "autoprefixer": "^10.4.2",
+    "@snowpack/plugin-postcss": "^1.4.3"
+  }
+}
