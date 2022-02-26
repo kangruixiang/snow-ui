@@ -3,10 +3,7 @@
     "dist": "/",
     "src": "/"
   },
-  "plugins": [
-    "@snowpack/plugin-svelte",
-    [
-      "@snowpack/plugin-postcss"
-    ]
-  ]
+  "plugins": ["@snowpack/plugin-svelte", ["@snowpack/plugin-postcss"]],
+  "devOptions.out": "docs",
+  "devOptions.tailwindConfig": "./tailwind.config.js"
 }
