@@ -1,7 +1,0 @@
-{
-  "mount": {
-    "dist": "/",
-    "src": "/"
-  },
-  "plugins": ["@snowpack/plugin-svelte", ["@snowpack/plugin-postcss"]]
-}

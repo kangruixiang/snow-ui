@@ -6,7 +6,8 @@ const tailwindConfig = require("./tailwind.config");
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    /* ... */
+    dist: "/",
+    src: "/",
   },
   plugins: ["@snowpack/plugin-svelte", ["@snowpack/plugin-postcss"]],
   packageOptions: {
