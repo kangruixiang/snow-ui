@@ -49,11 +49,11 @@ font-style: normal;
 	p {
 		@apply font-serif text-xl text-zinc-800
 	}
-	p::selection {
+	::selection {
 		@apply bg-slate-200
 	}
 	.btn {
-		@apply py-3 px-4 shadow  font-semibold rounded-lg border-2 border-solid border-zinc-800 bg-zinc-50
+		@apply transition duration-300 py-3 px-4 shadow  font-semibold rounded-lg border-2 border-solid border-zinc-800 bg-zinc-50
 		font-sans hover:bg-white text-zinc-800 hover:text-black;
 	}
 	.btn-dark {
